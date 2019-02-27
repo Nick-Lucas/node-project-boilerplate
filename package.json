@@ -1,0 +1,42 @@
+{
+  "name": "node-project-boilerplate",
+  "version": "0.0.1",
+  "description": "Sensible starting point for modern node.js development",
+  "license": "MIT",
+  "repository": "Nick-Lucas/node-project-boilerplate",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Nick Lucas",
+    "email": "me@nicklucas.co.uk",
+    "url": "https://github.com/Nick-Lucas"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "jest",
+    "coverage": "npm test -- --coverage",
+    "lint": "eslint .",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "babel src -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.3.4",
+    "@babel/plugin-proposal-class-properties": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "24.1.0",
+    "eslint": "5.14.1",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "4.1.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "jest": "24.1.0",
+    "prettier": "1.16.4",
+    "rimraf": "2.6.3"
+  }
+}
