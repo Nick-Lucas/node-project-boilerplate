@@ -1,9 +1,9 @@
 {
-  "name": "node-project-boilerplate",
+  "name": "ai",
   "version": "0.0.1",
   "description": "Sensible starting point for modern node.js development",
   "license": "MIT",
-  "repository": "Nick-Lucas/node-project-boilerplate",
+  "repository": "Nick-Lucas/ai",
   "main": "dist/index.js",
   "author": {
     "name": "Nick Lucas",
@@ -30,7 +30,7 @@
     "@babel/preset-env": "7.3.4",
     "babel-eslint": "10.0.1",
     "babel-jest": "24.1.0",
-    "eslint": "5.14.1",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-config-prettier": "4.1.0",
     "eslint-plugin-import": "2.16.0",
